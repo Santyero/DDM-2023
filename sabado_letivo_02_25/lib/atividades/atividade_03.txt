@@ -1,0 +1,14 @@
+// Em relação a sintaxe, quais são as variantes na escrita de uma função? 
+// Quais são as especificidades e em que caso pode-se utilziar cada uma?
+
+Existem 4 tipos de variante
+    - com parametros - para funções que necessitam de algum valor 
+    - sem parametros - para funções que não necessitam de valores para serem executadas
+    - com retorno - para funções que devem retornar um valor
+    - sem retorno - para funções que vão executar algo "localmente" e não precisam de retorno 
+
+Existem algumas especificidades na forma de enviar os parametros, com parametros obrigatorios e não obrigatorios, além
+disso é possivel enviar valores como parametros nomeados, desta forma a ordem os envios não é analisada
+
+Para funções Anonimas que existe um parametro Function é possivel executar funções dinamicas necessarias para a função
+que está sendo executada
